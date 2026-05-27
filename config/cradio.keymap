@@ -73,7 +73,7 @@
             &kp F1     &kp F2     &kp F3     &kp F4     &kp DEL        &kp PSCRN &kp C_VOL_UP &kp C_VOL_DN  &kp C_MUTE &kp C_PP
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│    F5    │  F6      │  F7      │  F8      │  SPACE   │   │  L       │  D       │  U       │  R       │  TAB     │
-            &kp F5     &kp F6     &kp F7     &kp F8      SPACE         &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT   &kp TAB
+            &kp F5     &kp F6     &kp F7     &kp F8    &kp SPACE       &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT   &kp TAB
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│    F9    │  F10     │  F11     │  F12     │          │   │  MENU    │  HOME    │  END     │  UP      │  DOWN    │
             &kp F9     &kp F10    &kp F11    &kp F12     &trans        &kp K_MENU   &kp HOME  &kp END   &kp PG_UP   &kp PG_DN
@@ -112,7 +112,7 @@
         //│          │          │          │          │          │   │          │          │          │          │          │
         &studio_unlock &trans     &trans      &trans     &trans         &trans     &trans     &trans     &trans     &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                             &trans     &trans          LSHFT     &trans
+                                             &trans     &trans          &kp LSHFT  &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
